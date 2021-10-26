@@ -2,7 +2,7 @@
 A Simple python script to dump all your Sql database data
 
 #Configluration: 
-A simple config.json where privide connection data:
+A simple config.json where provide connection data:
 
 ```json
 {
