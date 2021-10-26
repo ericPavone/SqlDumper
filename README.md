@@ -20,16 +20,12 @@ A simple config.json where provide connection data:
 ```python
 
 from SqlDumper import SqlDumper as Dumper
-import helpers
-
 
 dumper = Dumper("path/to/config/Connection")
 
 dumper.Connect()
 
-_context = dumper.context
-
-names = dumper.GetTablesName(_context)
+names = dumper.GetTablesName()
 
 dumper.DumpDb(names=names,folder="path/to/folder")
 
