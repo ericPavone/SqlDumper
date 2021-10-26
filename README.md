@@ -19,7 +19,7 @@ A simple config.json where provide connection data:
 
 ```python
 
-from SqlDumper import SqlDumper as Dumper
+import SqlDumper as Dumper
 
 dumper = Dumper("path/to/config/Connection")
 
